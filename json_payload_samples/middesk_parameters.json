@@ -1,0 +1,257 @@
+{
+    "required": [
+        {
+            "key": "business_name",
+            "type": "string",
+            "description": "Business name",
+            "regex": "",
+            "properties": {}
+        }
+    ],
+    "optional": [
+        {
+            "key": "business_address_line_1",
+            "type": "string",
+            "description": "Address field 1",
+            "regex": "",
+            "properties": {}
+        },
+        {
+            "key": "business_address_line_2",
+            "type": "string",
+            "description": "Address field 2",
+            "regex": "",
+            "properties": {}
+        },
+        {
+            "key": "business_address_city",
+            "type": "string",
+            "description": "Address city",
+            "regex": "",
+            "properties": {}
+        },
+        {
+            "key": "business_address_state",
+            "type": "string",
+            "description": "US state",
+            "regex": "",
+            "properties": {}
+        },
+        {
+            "key": "business_address_postal_code",
+            "type": "string",
+            "description": "Address postal code",
+            "regex": "",
+            "properties": {}
+        },
+        {
+            "key": "business_address_country_code",
+            "type": "string",
+            "description": "Two character ISO 3166-1 alpha-2 country code",
+            "regex": "",
+            "properties": {}
+        },
+        {
+            "key": "business_federal_ein",
+            "type": "string",
+            "description": "Business Federal Employer Identification Number",
+            "regex": "^\\d{9}$",
+            "properties": {}
+        },
+        {
+            "key": "business_phone_number",
+            "type": "string",
+            "description": "Primary phone number",
+            "regex": "",
+            "properties": {}
+        },
+        {
+            "key": "business_website",
+            "type": "string",
+            "description": null,
+            "regex": "",
+            "properties": {}
+        },
+        {
+            "key": "business_id",
+            "type": "string",
+            "description": "Middesk ID for previously created business",
+            "regex": "",
+            "properties": {}
+        },
+        {
+            "key": "name_first",
+            "type": "string",
+            "description": "First name",
+            "regex": "",
+            "properties": {}
+        },
+        {
+            "key": "name_last",
+            "type": "string",
+            "description": "Last name",
+            "regex": "",
+            "properties": {}
+        },
+        {
+            "key": "representatives",
+            "type": "array",
+            "description": null,
+            "regex": "",
+            "elements": {
+                "type": "object",
+                "description": null,
+                "regex": "",
+                "properties": {
+                    "required": [
+                        {
+                            "key": "name_first",
+                            "type": "string",
+                            "description": "First name",
+                            "regex": "",
+                            "properties": {}
+                        },
+                        {
+                            "key": "name_last",
+                            "type": "string",
+                            "description": "Last name",
+                            "regex": "",
+                            "properties": {}
+                        },
+                        {
+                            "key": "type",
+                            "type": "string",
+                            "description": null,
+                            "regex": "",
+                            "properties": {}
+                        },
+                        {
+                            "key": "addresses",
+                            "type": "array",
+                            "description": null,
+                            "regex": "",
+                            "elements": {
+                                "type": "object",
+                                "description": null,
+                                "regex": "",
+                                "properties": {
+                                    "required": [
+                                        {
+                                            "key": "line_1",
+                                            "type": "string",
+                                            "description": "Address field 1",
+                                            "regex": "",
+                                            "properties": {}
+                                        },
+                                        {
+                                            "key": "city",
+                                            "type": "string",
+                                            "description": "Address city",
+                                            "regex": "",
+                                            "properties": {}
+                                        },
+                                        {
+                                            "key": "state",
+                                            "type": "string",
+                                            "description": "US state",
+                                            "regex": "",
+                                            "properties": {}
+                                        },
+                                        {
+                                            "key": "postal_code",
+                                            "type": "string",
+                                            "description": "Address postal code",
+                                            "regex": "",
+                                            "properties": {}
+                                        },
+                                        {
+                                            "key": "type",
+                                            "type": "string",
+                                            "description": null,
+                                            "regex": "",
+                                            "properties": {}
+                                        }
+                                    ],
+                                    "optional": [
+                                        {
+                                            "key": "years_at_address",
+                                            "type": "number",
+                                            "description": null,
+                                            "regex": "",
+                                            "properties": {}
+                                        },
+                                        {
+                                            "key": "months_at_address",
+                                            "type": "number",
+                                            "description": null,
+                                            "regex": "",
+                                            "properties": {}
+                                        },
+                                        {
+                                            "key": "country_code",
+                                            "type": "string",
+                                            "description": "Two character ISO 3166-1 alpha-2 country code",
+                                            "regex": "",
+                                            "properties": {}
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ],
+                    "optional": [
+                        {
+                            "key": "name_middle",
+                            "type": "string",
+                            "description": "Middle name",
+                            "regex": "",
+                            "properties": {}
+                        },
+                        {
+                            "key": "document_ssn",
+                            "type": "string",
+                            "description": "US social security number",
+                            "regex": "^\\d{9}$",
+                            "properties": {}
+                        },
+                        {
+                            "key": "phone_number",
+                            "type": "string",
+                            "description": "Primary phone number",
+                            "regex": "",
+                            "properties": {}
+                        },
+                        {
+                            "key": "phone_number_work",
+                            "type": "string",
+                            "description": "Primary phone number",
+                            "regex": "",
+                            "properties": {}
+                        },
+                        {
+                            "key": "document_license",
+                            "type": "string",
+                            "description": "US issued drivers license number",
+                            "regex": "",
+                            "properties": {}
+                        },
+                        {
+                            "key": "document_license_state",
+                            "type": "string",
+                            "description": "US state that issued the associated \"document_license\" field",
+                            "regex": "",
+                            "properties": {}
+                        },
+                        {
+                            "key": "birth_date",
+                            "type": "date",
+                            "description": "Birth date - valid ISO 8601 format",
+                            "regex": "",
+                            "properties": {}
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

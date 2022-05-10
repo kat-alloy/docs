@@ -1,0 +1,25 @@
+{
+	"name_first": "First",
+	"name_last": "Last",
+	"birth_date": "1990-01-23",
+	"phone_number": "1115551515",
+	"email_address": "test@test.com",
+	"addresses": [
+		{
+			"line_1": "12 test st",
+			"city": "Richmond",
+			"state": "VA",
+			"postal_code": "23220",
+			"country_code": "US",
+			"type": "primary"
+		},
+		{
+			"line_1": "111 1st ST",
+			"city": "Brooklyn",
+			"state": "NY",
+			"postal_code": "11215",
+			"country_code": "US",
+			"type": "secondary"
+		}
+	]
+}

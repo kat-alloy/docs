@@ -1,0 +1,32 @@
+{
+	"representatives": [
+		{
+			"name_first": "",
+			"name_last": "",
+			"type": "{Principal Owner, Authorized Signer}",
+			"addresses": [
+				{
+					"line_1": "",
+					"city": "",
+					"state": "",
+					"postal_code": "",
+					"type": "{Primary Business, Secondary Business, Previous Business}"
+				}
+			]
+		},
+		{
+			"name_first": "",
+			"name_last": "",
+			"type": "",
+			"addresses": [
+				{
+					"line_1": "",
+					"city": "",
+					"state": "",
+					"postal_code": "",
+					"type": "{Primary Business, Secondary Business, Previous Business}"
+				}
+			]
+		}
+	]
+}

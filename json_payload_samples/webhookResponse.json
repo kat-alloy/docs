@@ -1,0 +1,16 @@
+{
+	"request_token": "{requestToken}",
+	"timestamp": 1624372731846,
+	"type": "UPDATE:Evaluations:async_update",
+	"description": "Notify on Asynchronously Updated Evaluation",
+	"data": {
+		"evaluation_token": "{evaluationToken}",
+		"evaluation_status": "{evaluationStatus}",
+		"application_token": "{applicationToken}",
+		"entity_token": "{entityToken}",
+		"external_entity_id": "{externalEntityId}",
+		"external_group_id": "{externalGroupId}",
+		"outcome": "{outcome}",
+		"outcome_reasons": "{outcomeReasons}"
+	}
+}
